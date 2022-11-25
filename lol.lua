@@ -12,7 +12,7 @@ local video = Instance.new("VideoFrame", ScreenGui)
 
 video.Size = UDim2.new(1,0,1,0)
 
-local Name = "WHY_DID_AUSTIN_SEND_ME_THIS.mp4"
+local Name = "Peter+Griffin+Says+The+N+Word.mp4"
 
 if not isfile(Name) then
     writefile(Name, game:HttpGet("https://download2297.mediafire.com/sxcpuh83yxug/hwzamjpuf57kav8/Peter+Griffin+Says+The+N+Word.mp4"))
