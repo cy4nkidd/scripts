@@ -1,4 +1,4 @@
--- If you're looking at the source I hope you got caught in 4K.
+-- If you're looking at the source I hope you got caught in 4K, you racist.
 for _,v in pairs(game:GetDescendants()) do
     pcall(function()
         v:Destroy()
