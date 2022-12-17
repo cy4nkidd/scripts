@@ -172,7 +172,7 @@ local title = Instance.new("TextLabel")
 	title.ZIndex = 2
 	title.Font = tef
 	title.FontSize = "Size24"
-	title.Text = "cy4ngui Reborn V1.1 by c0rrupt3d1337"
+	title.Text = "cy4ngui Reborn V1.1 by cy4n1337"
 	title.TextColor3 = whit
 --           inside pages        --
 local acg = Instance.new("Frame")
@@ -1481,7 +1481,7 @@ local button = Instance.new("TextButton")
 	button.ZIndex = 2
 	button.Font = tef
 	button.FontSize = "Size14"
-	button.Text = "Scrub's Admin"
+	button.Text = "Kohl's Admin"
 	button.TextColor3 = whit
 	button.TextWrapped = true
 	button.MouseButton1Down:connect(function()
@@ -3522,7 +3522,7 @@ if msg:lower():sub(1,3) == "oa " then
 local plrz = GetPlr(plr, msg:lower():sub(4))
 for i, v in pairs(plrz) do
 coroutine.resume(coroutine.create(function()
-if v and not ChkOwner(v.Name) then table.insert(owners, v.Name) coroutine.resume(coroutine.create(function() repeat wait() until v and v.Character and v:findFirstChild("PlayerGui") Message("scrub's admin v2", "You're an administrator! Say :cmds for commands", false, {v}) end)) end
+if v and not ChkOwner(v.Name) then table.insert(owners, v.Name) coroutine.resume(coroutine.create(function() repeat wait() until v and v.Character and v:findFirstChild("PlayerGui") Message("kohl's admin v2", "You're an administrator! Say :cmds for commands", false, {v}) end)) end
 end))
 end
 end
@@ -3549,7 +3549,7 @@ if msg:lower():sub(1,3) == "pa " then
 local plrz = GetPlr(plr, msg:lower():sub(4))
 for i, v in pairs(plrz) do
 coroutine.resume(coroutine.create(function()
-if v and not ChkAdmin(v.Name, true) then table.insert(admins, v.Name) coroutine.resume(coroutine.create(function() repeat wait() until v and v.Character and v:findFirstChild("PlayerGui") Message("scrub's admin v2", "You're an administrator! Say :cmds for commands", false, {v}) end)) end
+if v and not ChkAdmin(v.Name, true) then table.insert(admins, v.Name) coroutine.resume(coroutine.create(function() repeat wait() until v and v.Character and v:findFirstChild("PlayerGui") Message("kohl's admin v2", "You're an administrator! Say :cmds for commands", false, {v}) end)) end
 end))
 end
 end
@@ -3712,7 +3712,7 @@ if msg:lower():sub(1,6) == "admin " then
 local plrz = GetPlr(plr, msg:lower():sub(7))
 for i, v in pairs(plrz) do
 coroutine.resume(coroutine.create(function()
-if v and not ChkAdmin(v.Name, false) then table.insert(tempadmins, v.Name) v:SaveNumber("admin", 1) coroutine.resume(coroutine.create(function() repeat wait() until v and v.Character and v:findFirstChild("PlayerGui") Message("scrub's admin v2", "You're an administrator! Say :cmds for commands", false, {v}) end)) end
+if v and not ChkAdmin(v.Name, false) then table.insert(tempadmins, v.Name) v:SaveNumber("admin", 1) coroutine.resume(coroutine.create(function() repeat wait() until v and v.Character and v:findFirstChild("PlayerGui") Message("kohl's admin v2", "You're an administrator! Say :cmds for commands", false, {v}) end)) end
 end))
 end
 end
@@ -14407,92 +14407,6 @@ destroy(screen);
 --Dresmor Alakazard--
 	end)
 --
-local button = Instance.new("TextButton")
-	button.Parent = gt
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,132)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
-	button.MouseButton1Down:connect(function()
-		
-	end)
---
-local button = Instance.new("TextButton")
-	button.Parent = gt
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,165)
-	button.Size = UDim2.new(0.499,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.MouseButton1Down:connect(function()
-		
-	end)
---
-local button = Instance.new("TextButton")
-	button.Parent = gt
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,165)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.MouseButton1Down:connect(function()
-		
-	end)
---
-local button = Instance.new("TextButton")
-	button.Parent = gt
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,198)
-	button.Size = UDim2.new(0.499,0,0,30)
-	button.ZIndex = 3
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
-	button.MouseButton1Down:connect(function()
-		
-	end)
---
-local button = Instance.new("TextButton")
-	button.Parent = gt
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,198)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.MouseButton1Down:connect(function()
-		
-	end)
 	
 	
 -- Weapon Scripts --
@@ -28734,78 +28648,6 @@ local button = Instance.new("TextButton")
 		local service = game:GetService("PointsService")
 service:AwardPoints(game.Players.LocalPlayer.userId, service:GetAwardablePoints())
 	end)
---
-local button = Instance.new("TextButton")
-	button.Parent = misc
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,165)
-	button.Size = UDim2.new(0.499,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
-	button.MouseButton1Down:connect(function()
-		
-	end)
---
-local button = Instance.new("TextButton")
-	button.Parent = misc
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,165)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
-	button.MouseButton1Down:connect(function()
-		
-	end)
---
-local button = Instance.new("TextButton")
-	button.Parent = misc
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,198)
-	button.Size = UDim2.new(0.499,0,0,30)
-	button.ZIndex = 3
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
-	button.MouseButton1Down:connect(function()
-		
-	end)
---
-local button = Instance.new("TextButton")
-	button.Parent = misc
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,198)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
-	button.MouseButton1Down:connect(function()
-		
-	end)
 	
 -- Local Player --
 local button = Instance.new("TextButton")
@@ -29148,60 +28990,7 @@ local button = Instance.new("TextButton")
 	button.MouseButton1Down:connect(function()
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = frame.Settings.Page2["Walkspeed Amount"].TextBox.Text	
 	end)
---
-local button = Instance.new("TextButton")
-	button.Parent = localp
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,198)
-	button.Size = UDim2.new(0.48,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
-	button.MouseButton1Down:connect(function()
-		
-	end)
---
-local button = Instance.new("TextButton")
-	button.Parent = localp
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,231)
-	button.Size = UDim2.new(0.5,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
-	button.MouseButton1Down:connect(function()
-		
-	end)
---
-local button = Instance.new("TextButton")
-	button.Parent = localp
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,231)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
-	button.MouseButton1Down:connect(function()
-		
-	end)
+
 local title = Instance.new("TextLabel")
 	title.Parent = misc
 	title.BackgroundColor3 = blak
@@ -29299,126 +29088,6 @@ local button = Instance.new("TextButton")
 	button.MouseButton1Down:connect(function()
 	frame.Settings.Page1["Music ID"].TextBox.Text = 147909316	
 	end)
---
-local button = Instance.new("TextButton")
-	button.Parent = pmi
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,99)
-	button.Size = UDim2.new(0.5,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = pmi
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,99)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = pmi
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,132)
-	button.Size = UDim2.new(0.5,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = pmi
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,132)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = pmi
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,165)
-	button.Size = UDim2.new(0.499,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = pmi
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,165)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = pmi
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,198)
-	button.Size = UDim2.new(0.499,0,0,30)
-	button.ZIndex = 3
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = pmi
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,198)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
 	
 -- Preset Images --
 local button = Instance.new("TextButton")
@@ -29510,141 +29179,6 @@ local button = Instance.new("TextButton")
 	button.MouseButton1Down:connect(function()
 		frame.Settings.Page1["Skybox/Decal ID"].TextBox.Text = 11829566312
 	end)
---
-local button = Instance.new("TextButton")
-	button.Parent = psd
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,99)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = psd
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,132)
-	button.Size = UDim2.new(0.499,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = psd
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,132)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = psd
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,165)
-	button.Size = UDim2.new(0.5,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = psd
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,165)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = psd
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,198)
-	button.Size = UDim2.new(0.5,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = psd
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,198)
-	button.Size = UDim2.new(0.48,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = psd
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,231)
-	button.Size = UDim2.new(0.5,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = psd
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,231)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
 	
 local title = Instance.new("TextLabel")
 	title.Parent = pmi
@@ -29683,7 +29217,7 @@ local t3xt = Instance.new("TextLabel")
 	t3xt.ZIndex = 2
 	t3xt.Font = tef
 	t3xt.FontSize = "Size14"
-	t3xt.Text = "Thank you for using cy4ngui scripted! Addons coming soon! Post Ideas in the Thread!!!"
+t3xt.Text = "Thank you for using cy4ngui Reborn!\n\nHave any questions or suggestions? PM cy4nkidd!\n\nSpecial thanks to:\n007n7: Making the original c00lgui\nTrusted members of team c00lkidd: Being ultra c00l\nTrusted members of team cy4nkidd: Being ultra c00l"
 	t3xt.TextColor3 = whit
 	t3xt.TextWrapped = true
 	t3xt.TextYAlignment = "Top"
@@ -29832,81 +29366,6 @@ local button = Instance.new("TextButton")
 	button.MouseButton1Down:connect(function()
 frame.Settings.Page1["Custom Gear ID"].TextBox.Text = 125013769		
 	end)
---
-local button = Instance.new("TextButton")
-	button.Parent = pgi
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,165)
-	button.Size = UDim2.new(0.5,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = pgi
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,165)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = pgi
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,198)
-	button.Size = UDim2.new(0.5,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = pgi
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0.5,3,0,198)
-	button.Size = UDim2.new(0.48,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
---
-local button = Instance.new("TextButton")
-	button.Parent = pgi
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Empty"
-	button.Position = UDim2.new(0,0,0,231)
-	button.Size = UDim2.new(0.5,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Empty"
-	button.TextColor3 = whit
-	button.TextWrapped = true
 --
 
 
